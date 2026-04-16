@@ -1,22 +1,18 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Mermaid:Nodes and Links",
+    "slug": "mermaid-nodes-links",
+    "description": "An introduction to the basic syntax used to create nodes and links in a Mermaid diagram.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "mermaid",
+        "data-visualisation"
     ],
-    "duration": 0,
+    "duration": 5,
     "prerequisites": [
-        "",
-        ""
+        "mermaid-introduction"
     ],
     "related": [
-        "",
-        ""
     ]
 }

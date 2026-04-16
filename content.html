@@ -1,1 +1,25 @@
+<p>At the most basic level, a Mermaid diagram consists of nodes and links. Nodes represent entities in the diagram, while links represent the relationships between these entities. The following code demonstrates how to create simple nodes and links:</p>
 
+<pre><code>flowchart TD
+A[Node A] --> B[Node B]
+B --> C[Node C]
+A --> C</code></pre>
+
+<p>This produces the following diagram:</p>
+
+<p><code>flowchart TD</code> declares a flowchart and sets the layout direction to top-down.</p>
+
+<div class="mermaid">
+    flowchart TD
+        accTitle: An example Mermaid diagram with nodes and links
+        accDescr: This diagram shows three nodes (Node A, Node B, and Node C) and the links between them. Node A is linked to both Node B and Node C, while Node B is linked to Node C.
+        A[Node A] --> B[Node B]
+        B --> C[Node C]
+        A --> C
+</div>
+
+<p>The line <code>A[Node A] --> B[Node B]</code> creates a node named "Node A" and a node named "Node B", and then creates a link between them. The first time a node is created, we specify an identifier for it (in this case, "A" and "B") followed by the label for the node in square brackets. The identifier is used internally to reference the node, while the label is the text displayed in the diagram. The formatting of each node is determined by the characters around the node label. In this case, the square brackets around each node cause them to be displayed as rectangles.</p>
+
+<p>In this case, the links between the nodes are specified by the <code>--></code> syntax. This defines a directed link from the node on the left of it to the node on the right.</p>
+
+<p>In the second line <code>B --> C[Node C]</code>, when referencing the node we labelled <code>B</code>, we only need to use its identifier to relate it to the new node <code>C</code>, which we fully specify. In the third line <code>A --> C</code>, we reference both nodes by their identifiers.</p>
