@@ -7,8 +7,6 @@ A --> C</code></pre>
 
 <p>Depending on the context in which this code is placed (for example, an HTML file or a Markdown file), you may need to wrap it in additional markup for it to render correctly. This produces the following diagram:</p>
 
-<p><code>flowchart TD</code> declares a flowchart and sets the layout direction to top-down.</p>
-
 <div class="mermaid">
     flowchart TD
         accTitle: An example Mermaid diagram with nodes and links
@@ -17,6 +15,8 @@ A --> C</code></pre>
         B --> C[Node C]
         A --> C
 </div>
+
+<p><code>flowchart TD</code> declares a flowchart and sets the layout direction to top-down.</p>
 
 <p>The line <code>A[Node A] --> B[Node B]</code> creates a node named "Node A" and a node named "Node B", and then creates a link between them. The first time a node is referenced, we specify an identifier for it (in this case, <code>A</code> and <code>B</code>) followed by the label for the node in square brackets. The identifier is used internally to reference the node, while the label is the text displayed in the diagram. The formatting of each node is determined by the characters around the node label. In this case, the square brackets around each node cause them to be displayed as rectangles.</p>
 
