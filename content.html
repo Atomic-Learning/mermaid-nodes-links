@@ -18,8 +18,8 @@ A --> C</code></pre>
         A --> C
 </div>
 
-<p>The line <code>A[Node A] --> B[Node B]</code> creates a node named "Node A" and a node named "Node B", and then creates a link between them. The first time a node is created, we specify an identifier for it (in this case, "A" and "B") followed by the label for the node in square brackets. The identifier is used internally to reference the node, while the label is the text displayed in the diagram. The formatting of each node is determined by the characters around the node label. In this case, the square brackets around each node cause them to be displayed as rectangles.</p>
+<p>The line <code>A[Node A] --> B[Node B]</code> creates a node named "Node A" and a node named "Node B", and then creates a link between them. The first time a node is referenced, we specify an identifier for it (in this case, <code>A</code> and <code>B</code>) followed by the label for the node in square brackets. The identifier is used internally to reference the node, while the label is the text displayed in the diagram. The formatting of each node is determined by the characters around the node label. In this case, the square brackets around each node cause them to be displayed as rectangles.</p>
 
-<p>In this case, the links between the nodes are specified by the <code>--></code> syntax. This defines a directed link from the node on the left of it to the node on the right.</p>
+<p>In the example above, the links between the nodes are specified by the <code>--></code> syntax. This defines a directed link from the node on the left of the link to the node on the right.</p>
 
 <p>In the second line <code>B --> C[Node C]</code>, when referencing the node we labelled <code>B</code>, we only need to use its identifier to relate it to the new node <code>C</code>, which we fully specify. In the third line <code>A --> C</code>, we reference both nodes by their identifiers.</p>
