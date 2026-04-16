@@ -9,7 +9,7 @@
         "mermaid",
         "data-visualisation"
     ],
-    "duration": 5,
+    "duration": 4,
     "prerequisites": [
         "mermaid-introduction"
     ],
